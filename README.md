@@ -49,18 +49,20 @@ To add the module to your Geins PWA Storefront Ralph, open your `nuxt.config.js`
 To track user activity on your online store, you need to:
 
 1. Register your website with Hello Retail. [here](https://my.helloretail.com/)
-2. Configure your website on Hello Retail. Click `Check JavaScript Installation`. (**Important! This will only work if you have published your site after the installation of this module.**).
+2. Install the Ralph Hello Retail module (see installation above) and publish your site.
+3. Configure your website on Hello Retail. Click `Check JavaScript Installation`. (**Important! This will only work if you have published your site after the installation of this module.**).
 
 Once your website has been configured, Hello Retail will start tracking page visitors, assigning each of them to a unique ID (which can later be matched with an e-mail).
 
 In order to track ralph events such as add to cart, viewed product etc, you will need to set the module option `trackEvents` to `true`.
 
-The ralph events that will be tracked are:
+The ralph events that will currently be tracked are:
 
 | Type of activity  | Event tracked                                   | Information sent |
 | ----------------- | ------------------------------------------------| ------------------- |
-| Add to cart       | User adds a product to the cart                 | -- |
-| Viewed product  | User navigates to a product page                  | --|
+| Add to cart       | User adds a product to the cart                 | Canonical URLs and product IDs for all items in your cart |
+| Remove from cart  | User removes a product from their cart          | Canonical URLs and product IDs for all items in your cart |
+| Viewed product    | User navigates to a product page                | Canonical URL and product ID |
 
 ## Module Options
 
@@ -75,7 +77,7 @@ Add extra options to module configuration in `nuxt.config.js` file.
 
 Once the Hello Retail module is installed and configured, you can start leveraging the power of Hello Retail features in your Geins PWA Storefront Ralph. Explore the various functionalities provided by Hello Retail and integrate them seamlessly into your online store to enhance user experience and drive conversions.
 
-## Components
+## Components (TBA)
 
 --> search autocomplete
 --> product recommendations
