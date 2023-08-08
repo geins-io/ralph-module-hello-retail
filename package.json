@@ -1,6 +1,6 @@
 {
   "name": "@geins/ralph-module-hello-retail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hello Retail module for Geins PWA strorefront",
   "author": {
     "name": "arvidsson-geins"
@@ -35,5 +35,10 @@
   },
   "dependencies": {
     "consola": "^2.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geins-io/ralph-module-hello-retail"
+  },
+  "homepage": "docs.geins.io"
 }
