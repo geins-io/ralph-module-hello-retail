@@ -1,3 +1,10 @@
+[![NPM Package][npm]][npm-url]
+[![NPM Downloads][npm-downloads-per-month]][npm-trends]
+![Geins][mit-shield]
+
+[![Start Geins Free Trial][geins-tiral-img]][geins-tiral-url] [![Geins Docs][geins-docs-img]][geins-docs-url]
+
+[![geins-hello-retail](https://raw.githubusercontent.com/geins-io/resources/master/images/banners/repos/geins-helloretail.jpg)](https://www.geins.io)
 
 # Hello Retail module for Geins PWA Storefront (work in progress)
 
@@ -79,5 +86,19 @@ Once the Hello Retail module is installed and configured, you can start leveragi
 
 ## Components (TBA)
 
---> search autocomplete
---> product recommendations
+- Search autocomplete
+- Product recommendations
+
+
+
+
+[npm]: https://img.shields.io/npm/v/@geins/ralph-module-hello-retail
+[npm-url]: https://www.npmjs.com/package/@geins/ralph-module-hello-retail
+[npm-downloads-per-month]: https://img.shields.io/npm/dm/@geins/ralph-module-hello-retail.svg
+[npm-trends]: https://npmtrends.com/@geins/ralph-module-hello-retail
+[geins-docs-url]: https://docs.geins.io
+[geins-docs-img]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/geins-io/resources/master/sheilds/geins-docs-read-v3.json
+[geins-tiral-url]: https://www.geins.io
+[geins-tiral-img]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/geins-io/resources/master/sheilds/geins-fee-tiral.json
+[mit-shield]: https://img.shields.io/badge/license-MIT-green
+[mit-url]: https://en.wikipedia.org/wiki/MIT_License
