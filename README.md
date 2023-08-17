@@ -6,7 +6,7 @@
 
 [![geins-hello-retail](https://raw.githubusercontent.com/geins-io/resources/master/images/banners/repos/geins-helloretail.jpg)](https://www.geins.io)
 
-# Hello Retail module for Geins PWA Storefront (work in progress)
+# Hello Retail module for Geins PWA Storefront
 
 A module for Geins PWA Storefront Ralph that allows you to effortlessly integrate Hello Retail features into your storefront. With this module, you can enhance your online store with powerful Hello Retail functionalities in just a few seconds.
 
